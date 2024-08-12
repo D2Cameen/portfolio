@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0%;
+}
+nav{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+nav ul li a{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    color: white;
+    text-decoration: none;
+    
+}
+nav ul li a:hover{
+    color: gold;
+}
+video{
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+    height: 100vh;
+}
+.overlay{
+    position: absolute;
+    top: 33%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+.inner h1{
+    color: gold;
+}
+span{
+    color: gold;
+}
+#Home
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 0;
+    color: white;
+}
+.main{
+    border: 5px solid rgb(27, 27, 161);
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    margin: 50px;
+    box-shadow: 4px 5px 6px 5px rgb(0, 0, 0);
+}
+.pic{
+    display: flex;
+}
+.pic img{
+    width: 200px;
+}
+.pic p{
+    text-align: justify;
+    margin: 30px;
+}
+.pic h4{
+    text-align: center;
+    font-size: x-large;
+}
+h3{
+    text-align: center;
+    margin: 20px;
+    font-size: x-large;
+    text-decoration: underline;
+}
+h3:hover{
+    text-decoration: underline;
+    text-shadow: 4px 5px 6px gold;
+}
+.gallery{
+    justify-content: space-between;
+    margin-left: 300px;
+}
+.gallery img{
+    width: 400px;
+    height: 300px;
+    margin: 20px;
+
+}
+.gallery img:hover{
+    box-shadow: 4px 5px 6px black;
+}
+.row{
+    justify-content: center;
+    display: flex;
+}
+.box{
+    width: 350px;
+    height: 360px;
+    border: 2px double gold;
+    margin: 20px;
+    background: linear-gradient(to top,gold 50%,rgb(54, 51, 51) 50%);
+    background-size: 100% 200%;
+    transition: all 0.9s;
+}
+.box:hover{
+    background-position: left bottom;
+    border: none;
+    box-shadow: 4px 5px 6px black;
+}
+.box img{
+    width: 100%;
+ 
+}
+.box h4{
+    text-align: center;
+    margin: 10px;
+    color: gold;
+}
+.box p{
+    text-align: justify;
+    margin: 20px;
+}
+form{
+    width: 500px;
+    margin-left: 735px;
+    margin-right: 500px;
+}
+.input{
+    width: 100%;
+    margin: 10px 0;
+}
